@@ -13,7 +13,7 @@
                 +font('Mulish', normal, 700, 19px, 24px, 0.4px, $gray)
         .navigation
             .router-link
-                display: block
+                display: flex
                 position: relative
                 width: 100%
                 padding: 18px 24px 18px 32px
@@ -35,4 +35,10 @@
                         width: 3px
                         background-color: $lightBlue
                         display: block
+                    .icon
+                        opacity: 1 !important
+                .icon
+                    opacity: 0.5
+                    transition: .3s
+                    margin-right: 24px
                 

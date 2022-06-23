@@ -3,6 +3,9 @@
 import { NuxtLink } from '~~/.nuxt/components';
 import './styles.sass';
 
+// Icons
+import IconOverview from '~~/assets/icons/iconOverview.svg';
+
 export default defineComponent({
   render () {
     return (
@@ -12,8 +15,8 @@ export default defineComponent({
         </div>
         <div class="navigation">
           <NuxtLink to="/" class="router-link">
-            <i class="" />
-            <span>Home</span>
+            <img src={IconOverview} class="icon" alt="icon Overview" />
+            <span>Overview</span>
           </NuxtLink>
         </div>
       </div>
