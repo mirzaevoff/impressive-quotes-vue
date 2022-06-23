@@ -2,7 +2,12 @@
 
 // Imports
 @import includes/_variables
+@import includes/_typography
 
 body, html
     margin: 0
     padding: 0
+    +font()
+.page
+    display: flex
+    min-height: 100vh

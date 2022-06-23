@@ -1,0 +1,38 @@
+@import ~~/assets/sass/includes/_variables
+@import ~~/assets/sass/includes/_typography
+
+
+.component
+    &-sidebar
+        width: 255px
+        background-color: $dark
+        .logo
+            text-align: center
+            height: 128px
+            h2
+                +font('Mulish', normal, 700, 19px, 24px, 0.4px, $gray)
+        .navigation
+            .router-link
+                display: block
+                position: relative
+                width: 100%
+                padding: 18px 24px 18px 32px
+                +font('Mulish', normal, 400, 16px, 20px, 0.2px, $gray)
+                text-decoration: none
+                box-sizing: border-box
+                transition: .3s
+                &::before
+                    content: ''
+                    height: 100%
+                    position: absolute
+                    top: 0
+                    left: 0
+                    display: none
+                &:hover, &-active
+                    background-color: rgba($gray, 0.08)
+                    +font('Mulish', normal, 400, 16px, 20px, 0.2px, $lightBlue)
+                    &::before
+                        width: 3px
+                        background-color: $lightBlue
+                        display: block
+                
