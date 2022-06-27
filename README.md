@@ -2,7 +2,7 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-Look at the [https://quotes.ravendigital.uz/](DEMO)
+Look at the [DEMO](https://quotes.ravendigital.uz/)
 
 ## Setup
 
